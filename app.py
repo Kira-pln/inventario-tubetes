@@ -8,7 +8,7 @@ import os
 # ===============================
 st.set_page_config(
     page_title="Inventário de Tubetes",
-    page_icon="📦",
+    
     layout="wide"
 )
 
@@ -61,7 +61,7 @@ if "inventario" not in st.session_state:
 # ===============================
 # CABEÇALHO
 # ===============================
-st.title("📦 Sistema de Inventário de Tubetes")
+st.title(" Sistema de Inventário de Tubetes")
 st.caption("Controle de estufa • entrada • saída • rastreabilidade")
 
 # ===============================
